@@ -1,0 +1,12 @@
+form{display: flex;
+color: blue;
+}
+input[password]:invalid{flex: auto;
+
+border: red;}
+
+#outMainFrame{
+    display: flex;
+}
+
+.mainFrames{}
