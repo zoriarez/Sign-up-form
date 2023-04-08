@@ -50,3 +50,24 @@ body{
 .insideImgBar img{
     max-height: 100%;
 }
+
+main{
+    height: 100%;
+    max-width: 65%;
+    background-color: #FAFAFA;
+}
+
+.description{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 90%;
+}
+
+form{
+    height: 70%;
+}

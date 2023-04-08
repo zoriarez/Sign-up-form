@@ -15,36 +15,55 @@
                 <h1>Odin</h1>
             </div>
         </div>
-        <div class="mainframes" id="formFrame">
-                <div>
-                    <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!</p>
-                <p>Sign up <em>now</em> to get started.</p>
-                <p class="remote-text">You <em>know</em> you want to.</p>
-                </div>
-                <form action="" method="post">
-                    <label for="first-name">first-name</label>
-                    <input type="text" class="textboxes"  id="first-name" required>
-
-                    <label for="last-name">last-name</label>
-                    <input type="text" class="textboxes"  id="last-name" required>
-
-                    <label for="email">email</label>
-                    <input type="email" class="textboxes"  id="email" required>
-
-                    <label for="Phone number">Phone number</label>
-                    <input type="number" class="textboxes"  id="Phone number" required>
-                    
-                    <label for="password">password</label>
-                    <input type="password" class="textboxes"  id="password" required minlength="8" maxlength="20">
-
-                    <label for="Confirm">Confirm</label>
-                    <input type="text" class="textboxes"  id="confirm" required>
-
-                    <input type="submit" >
+        <main>
+                <section class="Description">
+                        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                    <p>Sign up <em>now</em> to get started.</p>
+                    <p class="remote-text">You <em>know</em> you want to.</p>
                 
+                </section>
+
+
+                <form action="" method="post">
+                    <div class="formContainer">
+                    <fieldset>
+                        <div class="cell">
+                            <label for="first-name">first-name</label>
+                            <input type="text" class="textboxes"  id="first-name" required>
+                        </div>
+                        <div class="cell">
+                            <label for="last-name">last-name</label>
+                            <input type="text" class="textboxes"  id="last-name" required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="cell">
+                            <label for="email">email</label>
+                            <input type="email" class="textboxes"  id="email" required>
+                        </div>
+                        <div class="cell">
+                            <label for="phoneNumber">Phone number</label>
+                            <input type="number" class="textboxes"  id="phoneNumber" required>
+                        </div>
+                     </fieldset>
+
+                    <fieldset>
+                        <div class="cell">   
+                            <label for="password">password</label>
+                            <input type="password" class="textboxes"  id="password" required minlength="8" maxlength="20">
+                        </div>
+                        <div class="cell">
+                            <label for="Confirm">Confirm</label>
+                            <input type="text" class="textboxes"  id="confirm" required>
+                        </div>
+                    </fieldset>
+                    <div class="buttonContainer">
+                        <input type="submit" >
+                    </div>
+                </div>
                 </form>
                 <div class="log-in left"><p>Already have an account?</p><a href="#">Log in</a></div>
-        </div>
+        </main>
     </div>
 
     <script src="script.js"></script>
