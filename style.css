@@ -99,3 +99,33 @@ fieldset{
     text-transform: uppercase;
     width:30%;
 }
+
+.cell label{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+form input{
+    border:1px solid #d6d9dc;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.buttonContainer{
+    padding-left:2rem;
+}
+.buttonContainer a{
+    color:#596D48;
+    text-decoration: none;
+}
+button{
+    background-color: #596D48;
+    border:none;
+    border-radius: 6px;
+    padding:10px 40px;
+    color:white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
