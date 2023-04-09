@@ -24,43 +24,43 @@
                 </section>
 
 
-                <form action="#" method="post">
+                <form action="#" method="post" onsubmit="return checkpassword()">
                     <div class="formContainer">
                         <p>Let's do this!</p>
                     <fieldset>
                         <div class="cell">
                             <label for="first-name">first-name</label>
-                            <input type="text" class="textboxes"  id="first-name" required>
+                            <input type="text" class="textboxes"  id="first-name" name="first-name" required>
                         </div>
                         <div class="cell">
                             <label for="last-name">last-name</label>
-                            <input type="text" class="textboxes"  id="last-name" required>
+                            <input type="text" class="textboxes"  id="last-name" name="lastname" required>
                         </div>
                     </fieldset>
                     <fieldset>
                         <div class="cell">
                             <label for="email">email</label>
-                            <input type="email" class="textboxes"  id="email" required>
+                            <input type="email" class="textboxes"  id="email" name="email" required>
                         </div>
                         <div class="cell">
                             <label for="phoneNumber">Phone number</label>
-                            <input type="number" class="textboxes"  id="phoneNumber" required>
+                            <input type="text" class="textboxes"  id="phoneNumber" name="phone" required pattern="(\d{5}([\-]\d{4})?)" title="please match the format eg.51234" placeholder="123451">
                         </div>
                      </fieldset>
 
                     <fieldset>
                         <div class="cell">   
                             <label for="password">password</label>
-                            <input type="password" class="textboxes"  id="password" required minlength="8" maxlength="20">
+                            <input type="password" class="textboxes"  id="password" name="password" required minlength="8" maxlength="20">
                         </div>
                         <div class="cell">
                             <label for="Confirm">Confirm</label>
-                            <input type="text" class="textboxes"  id="confirm" required>
+                            <input type="password" class="textboxes"  id="confirm" name="confirm"  required >
                         </div>
                     </fieldset>
                  </div>
                     <div class="buttonContainer">
-                        <button type="submit">Create Account</button>
+                        <button type="submit"  >Create Account</button>
                         <div class="log-in left"><p>Already have an account?</p><a href="#">Log in</a></div>
                     </div>
                
